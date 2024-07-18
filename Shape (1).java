@@ -38,14 +38,8 @@ public abstract class Shape {
         return "A Shape with color of " + color + " and " + (filled ? "filled." : "not filled.");
     }
 
-    public double calculateArea() {
-        return 0;
+    public abstract double calculateArea(); 
+        
 
-    }
-
-    public double calculateCircumference() {
-        return 0;
-
-
-    }
+    public abstract double calculateCircumference(); 
 }
